@@ -1,0 +1,36 @@
+.square{
+    border: 1px solid black;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+}
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 50px auto;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+}
+
+.butt{
+    color: white;
+    background-color: brown;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 20px;
+    
+}
+
+body{
+    background-color: beige;
+}
+
+
